@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background: #FBFAF5;
+        font-family: sans-serif
+    }
+    
+    section {
+      
+    }
+    
+    .main {
+      
+    }
+    
+    h1 {
+      
+    }
+    
+    h4 {
+      
+    }
+    
+    input {
+      
+    }
+    
+    button {
+      
+    }
+    
+    
+  </style>
+  <script>
+    
+  </script>
+</head>
+<body>
+  <section>
+    <div class="main">
+      <h1>Welcome to Fast QR Codes!</h1>
+      <h4>Just enter the URL you'd like to turn into a QR code below.</h4>
+        <form>
+          <input type="url" placeholder="Paste URL here..."></input>
+          <button type="submit">Generate QR Code></button>
+        </form>
+    </div>
+  </section>
+</body>
+</html>
