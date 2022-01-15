@@ -1,0 +1,67 @@
+main.css
+
+body {
+        background: #FBFAF5;
+        font-family: Poppins;
+    }
+    
+    section {
+        padding-top: 10%;        
+        width: 100%;
+        border-width: 10px;
+        border-color: black;
+    }
+    
+    .container {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .logo-img {
+      width: 64px;
+      height: auto;
+    }
+
+    form {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    input {
+      border-radius: 10px;
+      border-width: 3px; 
+      border-color: black;
+      padding: 10px;
+    }
+    
+    button {
+      background-color: hsl(171, 61%, 80%);
+      border-radius: 10px;
+      border-width: 3px;
+      border-color: black;
+      padding: 10px;
+    }
+
+    button:hover {
+      background-color: #98D7CE;
+    }
+
+    button.downloadBtn {
+        background-color: transparent;
+        border-width: 0;
+    }
+
+    .qrdiv {
+        text-align: center;
+    }
+
+    .QRimg {
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        font-size: small;
+        text-align: center;
+    }
