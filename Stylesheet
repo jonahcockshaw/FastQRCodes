@@ -1,5 +1,6 @@
 body {
-
+  background: #FBFAF5;
+  font-family: Sans-Serif;
 }
 
 h1 {
