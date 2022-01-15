@@ -3,48 +3,62 @@
 <head>
   <style>
     body {
-      background: #FBFAF5;
-        font-family: sans-serif
+        background: #FBFAF5;
+        font-family: sans-serif;
     }
     
     section {
-      
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        border-width: 10px;
+        border-color: black;
     }
     
     .main {
-      
+      border-width: 10px;
+      border-color: black;
     }
-    
-    h1 {
-      
-    }
-    
-    h4 {
-      
+
+    .logo-img {
+      width: 64px;
+      height: auto;
+      margin-bottom: 15px;
+      display:;
     }
     
     input {
-      
+      border-radius: 10px;
+      border-width: 3px; 
+      border-color: black;
+      padding: 10px;
     }
     
     button {
-      
+      background-color: #ACEBE2;
+      border-radius: 10px;
+      border-width: 3px;
+      border-color: black;
+      padding: 10px;
     }
-    
+
+    button:hover {
+      background-color: #98D7CE;
+    }
     
   </style>
   <script>
-    
+
   </script>
 </head>
 <body>
   <section>
     <div class="main">
-      <h1>Welcome to Fast QR Codes!</h1>
-      <h4>Just enter the URL you'd like to turn into a QR code below.</h4>
+      <img class="logo-img" src="https://cdn-icons-png.flaticon.com/512/3037/3037072.png"/>
         <form>
-          <input type="url" placeholder="Paste URL here..."></input>
-          <button type="submit">Generate QR Code></button>
+          <input type="url" id="qr-url" placeholder="Paste URL here..."></input>
+          <button type="submit">Generate QR Code</button>
         </form>
     </div>
   </section>
